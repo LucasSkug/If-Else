@@ -98,8 +98,29 @@ import java.util.Scanner;
 			System.out.println("Cada maça saiu por R$0,30");
 		}
 
-		
-		
-		
-		
+			
 		entradaDeDados.close();
+		
+		
+		import java.util.Scanner;
+
+
+//PROGRAMA PARA SABER SE O NUMERO É PAR OU IMPAR
+	
+		Scanner entradaDados = new Scanner(System.in);
+		
+		int num;
+		int parImpar;
+		
+		System.out.println("Digite um numero inteiro");
+		num = entradaDados.nextInt();
+		
+		parImpar = num - num / 2 * 2;
+		
+		if (parImpar == 0) {
+			System.out.println("Esse numero é PAR");
+		} else {
+			System.out.println("Esse numero é IMPAR");
+		}
+		
+
