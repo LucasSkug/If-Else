@@ -17,7 +17,7 @@ import java.util.Scanner;
 		}else {
 			System.out.println("O numero " + valor2 + " é maior");
 		}
-
+             entradaDados.close();
 
 
 //PROGRAMA PARA SABER QUAL DOS DOIS NUMEROS É MAIOR
@@ -48,7 +48,7 @@ import java.util.Scanner;
 			System.out.println("O numero " + valor4 + " é maior");
 		}
 
-
+              entradaDados.close();
 
 //PROGRAMA FEITO PARA SABER SE UMA PESSOA PODE VOTAR OU NÃO
 
