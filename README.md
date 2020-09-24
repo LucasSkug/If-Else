@@ -1,9 +1,9 @@
 # If-Else
 import java.util.Scanner;
 
-public class Votarounao {
+
 //PROGRAMA FEITO PARA SABER SE UMA PESSOA PODE VOTAR OU NÃO
-	public static void main(String[] args) {
+	
 		Scanner entradaDados = new Scanner(System.in);
 		int anoNascimento;
 		 
@@ -16,16 +16,10 @@ public class Votarounao {
 			 System.out.println("Você não podera votar esse ano");
 		 }
 		
-		
-	}
-}
 
 
-import java.util.Scanner;
-
-public class Senha {
 //PROGRAMA PARA SABER SE A SENHA É VALIDA  
-	public static void main(String[] args) {
+	
 		Scanner entradaDeDados = new Scanner(System.in);
 		int senha;
 		
@@ -39,16 +33,11 @@ public class Senha {
 		
 		
 		entradaDeDados.close();
-	}
-
-}
+	
 
 
-import java.util.Scanner;
-
-public class Macas {
 //TOTAL DE COMPRAS DE MAÇA
-	public static void main(String[] args) {
+	
 		Scanner entradaDeDados = new Scanner(System.in);
 		int macas;
 		
@@ -66,6 +55,3 @@ public class Macas {
 		
 		
 		entradaDeDados.close();
-	}
-
-}
