@@ -1,9 +1,57 @@
 # If-Else
 import java.util.Scanner;
 
+//PROGRAMA PARA SABER QUAL DOS DOIS NUMEROS É MAIOR
+
+		Scanner entradaDados = new Scanner(System.in);
+		int valor1;
+		int valor2;
+		
+		System.out.println("Digite o prieiro valor");
+		valor1 = entradaDados.nextInt();
+		System.out.println("Digite o segundo valor");
+		valor2 = entradaDados.nextInt();
+		
+		if(valor1 > valor2) {
+			System.out.println("O numero " + valor1 + " é maior");
+		}else {
+			System.out.println("O numero " + valor2 + " é maior");
+		}
+
+
+
+//PROGRAMA PARA SABER QUAL DOS DOIS NUMEROS É MAIOR
+
+		Scanner entradaDados = new Scanner(System.in);
+		int valor1;
+		int valor2;
+		int valor3;
+		int valor4;
+		
+		System.out.println("Digite o prieiro valor");
+		valor1 = entradaDados.nextInt();
+		System.out.println("Digite o segundo valor");
+		valor2 = entradaDados.nextInt();
+		System.out.println("Digite o segundo valor");
+		valor3 = entradaDados.nextInt();
+		System.out.println("Digite o segundo valor");
+		valor4 = entradaDados.nextInt();
+		
+		
+		if(valor1 > valor2 && valor1 > valor3 && valor1 > valor4) {
+			System.out.println("O numero " + valor1 + " é maior");
+		}else if (valor2 > valor1 && valor2 > valor3 && valor2 > valor4){
+			System.out.println("O numero " + valor2 + " é maior");
+		}else if (valor3 > valor1 && valor3 > valor2 && valor3 > valor4) {
+			System.out.println("O numero " + valor3 + " é maior");
+		}else {
+			System.out.println("O numero " + valor4 + " é maior");
+		}
+
+
 
 //PROGRAMA FEITO PARA SABER SE UMA PESSOA PODE VOTAR OU NÃO
-	
+
 		Scanner entradaDados = new Scanner(System.in);
 		int anoNascimento;
 		 
